@@ -39,7 +39,7 @@ users in array.
 
 problems with array: 
 what if we dont know the size when creating it.may be one user books all the 50 tickets.
-not efficinet: having one value with size of 50 values.
+not efficient: having one value with size of 50 values.
 
 Slice in go like list bookins = []
 
@@ -148,14 +148,4 @@ wg.Add(2)
 wg is just a management to tell two threads are there but one thread doesnt know about aother thread
 whether it is working or out of market.
 so multiple go routines can actually talk to each other to know all that stuff via channels
-
-
-
-
-
-
-
-
-
-
 
